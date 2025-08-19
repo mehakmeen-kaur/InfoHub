@@ -1,0 +1,11 @@
+/* Navbar.css */
+.nav-link {
+  cursor: pointer; /* Makes it feel clickable */
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #0d6efd;   /* Bootstrap blue */
+  text-decoration: underline;
+  transform: scale(1.05); /* subtle zoom */
+}
